@@ -1,0 +1,132 @@
+body{
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+#navbar{
+    display: flex;
+    flex-direction: row;
+    gap: 120px;
+}
+
+#skill{
+    display:flex;
+    gap:5px;
+}
+.cap{
+    padding-top: 7px;;
+   width:40px;
+   height:40px;
+}
+#ux{
+    padding-bottom: 160px;
+    padding-left: ;
+}
+
+#hero{
+    display: flex;
+    gap:50px
+}
+
+#monthly{
+display: flex;
+gap: 20px;
+}
+
+#upgrade{
+    display:flex;
+    gap: 100px;
+}
+
+
+#manimg{
+    border-radius: 50px;
+    /* background-color: midnightblue;  */
+    max-height: 200px ;
+
+    padding-bottom: 20px;
+}
+
+#man{
+    padding-bottom: 30px ;
+    padding-top: 50px;
+ border-radius: 50%;
+
+}
+
+.b1{
+    background-color: crimson;
+    color: white;
+    border: none;
+    border-radius: 40%;
+    height: 40px;
+    width:80px;
+}
+
+.b2{
+    border-radius: 40%; 
+    border-color: crimson;
+    border-style: solid;
+    background-color: white;
+    color: crimson;
+    height: 40px;
+    width:70px;
+}
+
+.b3{
+    background-color: crimson;
+    color: white;
+    border: none;
+    border-radius: 40%;
+    height: 40px;
+    width:100px;
+
+}
+
+.input{
+    height: 40px;
+     width:200px;
+    border-radius: 40%;
+   
+}
+
+#icons{
+    display: flex;
+    gap:30px;
+    height: 70px;
+    width: 30px;
+
+}
+
+@media  (min-width: 300px) and (max-width: 700px){
+    #navbar{
+        display: block;
+    }
+
+    #skill{
+        display: block;
+    }
+
+    #hero{
+        display: block;
+    }
+    #monthly{
+        display: block;
+    }
+    #upgrade{
+        display: block;
+    }
+    #skills{
+        display:block;
+    }
+    #manimg{
+        border-radius: 50px;
+        background-color: midnightblue; 
+        max-height: 200px ;
+        width: 150px;
+    }
+    #icons{
+        display:block;
+            }
+    }
