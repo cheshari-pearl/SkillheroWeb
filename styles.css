@@ -1,132 +1,236 @@
 body{
-    padding-left: 10px;
-    padding-right: 10px;
-
+   font-size: 34px;
+   font-family: "Mona sans", "Helevitica neue", Helvetica, Arial, sans-serif;
+   padding-left: 90px;
+   padding-right: 90px;
 }
 
 #navbar{
     display: flex;
     flex-direction: row;
-    gap: 120px;
+    gap: 180px;
+    
 }
+.hamburger-button {
+    /* background-color:blueviolet; */
+    background: none;
+    border:none;
+    color: crimson;
+    padding: 15px;
+    font-size: 24px;
+    cursor: pointer;
+    padding-left: 1200px;
+    align-items: center;
+   
+ }
+ .nav-links{ 
+    display: none;
+    background-color: #333;
+    color: white;
+ }
 
-#skill{
+#nav{
+   padding-top: 9px;
     display:flex;
-    gap:5px;
+    gap:10px;
+    padding-bottom: 10px;
 }
-.cap{
-    padding-top: 7px;;
+#nav-details{
+    padding-top: 40px;
+     display:flex;
+     gap:80px;
+ }
+.nav-image{
+    padding-top: 25px;;
    width:40px;
    height:40px;
 }
-#ux{
-    padding-bottom: 160px;
-    padding-left: ;
-}
 
-#hero{
-    display: flex;
-    gap:50px
-}
-
-#monthly{
+#subscriptions{
 display: flex;
 gap: 20px;
+font-size: large;
 }
 
-#upgrade{
+#skillheropage{
     display:flex;
     gap: 100px;
 }
+.crimson{
+    color: crimson;
+}
+.blue{
+    color: midnightblue;
+}
 
-
-#manimg{
+#hero-image{
     border-radius: 50px;
-    /* background-color: midnightblue;  */
+    background-color: aliceblue;  
     max-height: 200px ;
-
     padding-bottom: 20px;
 }
 
 #man{
-    padding-bottom: 30px ;
-    padding-top: 50px;
- border-radius: 50%;
+   padding-left: 300px;
+  height: 450px;
+  width: 450px;
 
 }
 
-.b1{
+.login-button{
     background-color: crimson;
     color: white;
     border: none;
-    border-radius: 40%;
+    border-radius: 30px;
     height: 40px;
     width:80px;
 }
 
-.b2{
-    border-radius: 40%; 
+.signup-button{
+    border-radius: 30px; 
     border-color: crimson;
     border-style: solid;
     background-color: white;
     color: crimson;
     height: 40px;
-    width:70px;
+    width:80px;
 }
 
-.b3{
+.hero-button{
     background-color: crimson;
     color: white;
     border: none;
-    border-radius: 40%;
-    height: 40px;
-    width:100px;
+    border-radius: 30px;
+    height: 45px;
+    width:110px;
+    margin-left: -70px;
 
 }
 
-.input{
+#input{
     height: 40px;
-     width:200px;
-    border-radius: 40%;
-   
+    width:250px;
+    border-radius: 30px; 
 }
 
-#icons{
+#footer{
     display: flex;
-    gap:30px;
-    height: 70px;
-    width: 30px;
+    gap:180px;
+    height: 80px;
+    width: 50px;
+    
 
 }
 
-@media  (min-width: 300px) and (max-width: 700px){
-    #navbar{
-        display: block;
+@media  (min-width: 375px) and (max-width: 435px){
+ 
+    body{ 
+        font-size: large;
     }
+#navbar{
+    display: block;
+}
+#nav{
+    display:block;
+}
+#nav-details{
+    display:block;
+}
+#skillheropage{
+    gap:0;
+    display: block;
+}
+#hero-image{
+    flex-wrap: wrap;
+    display: block;
+    margin-left: -280px;
+    
+}
+#man{
+    height: 200px;
+    width: 200px;
+}
+.hero-button{
+    margin-left: 0px;
+}
+#footer{
+    display: block;
+}
 
-    #skill{
-        display: block;
-    }
+}
 
-    #hero{
-        display: block;
+@media  (min-width: 360px) and (max-width: 374px){
+    body{ 
+        font-size: large;
     }
-    #monthly{
-        display: block;
+#navbar{
+    display: block;
+}
+#nav{
+    display:block;
+}
+#nav-details{
+    display:block;
+}
+#skillheropage{
+    gap:0;
+    display: block;
+}
+#hero-image{
+    flex-wrap: wrap;
+    display: block;
+    margin-left: -280px;
+    
+}
+#man{
+    height: 200px;
+    width: 200px;
+}
+.hero-button{
+    margin-left: 0px;
+}
+#footer{
+    display: block;
+}
+
+}
+@media  (min-width: 280px) and (max-width: 359px){
+    body{ 
+        font-size: large;
     }
-    #upgrade{
-        display: block;
-    }
-    #skills{
-        display:block;
-    }
-    #manimg{
-        border-radius: 50px;
-        background-color: midnightblue; 
-        max-height: 200px ;
-        width: 150px;
-    }
-    #icons{
-        display:block;
-            }
-    }
+#navbar{
+    display: block;
+}
+#nav{
+    display:block;
+}
+#nav-details{
+    display:block;
+}
+#skillheropage{
+    gap:0;
+    display: block;
+}
+#hero-image{
+    flex-wrap: wrap;
+    display: block;
+    margin-left: -280px;
+    
+}
+#man{
+    height: 200px;
+    width: 200px;
+}
+.hero-button{
+    margin-left: 0px;
+}
+#footer{
+    display: block;
+}
+
+
+}
+
+
+
+
