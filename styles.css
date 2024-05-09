@@ -8,26 +8,11 @@ body{
 #navbar{
     display: flex;
     flex-direction: row;
-    gap: 180px;
+    gap: 150px;
     
 }
-.hamburger-button {
-    /* background-color:blueviolet; */
-    background: none;
-    border:none;
-    color: crimson;
-    padding: 15px;
-    font-size: 24px;
-    cursor: pointer;
-    padding-left: 1200px;
-    align-items: center;
-   
- }
- .nav-links{ 
-    display: none;
-    background-color: #333;
-    color: white;
- }
+
+
 
 #nav{
    padding-top: 9px;
@@ -42,8 +27,8 @@ body{
  }
 .nav-image{
     padding-top: 25px;;
-   width:40px;
-   height:40px;
+   width:65px;
+   height:65px;
 }
 
 #subscriptions{
@@ -56,10 +41,10 @@ font-size: large;
     display:flex;
     gap: 100px;
 }
-.crimson{
+.text-color{
     color: crimson;
 }
-.blue{
+.font-color{
     color: midnightblue;
 }
 
@@ -70,8 +55,8 @@ font-size: large;
     padding-bottom: 20px;
 }
 
-#man{
-   padding-left: 300px;
+#hero-img{
+ padding-left: 300px;
   height: 450px;
   width: 450px;
 
@@ -104,6 +89,7 @@ font-size: large;
     height: 45px;
     width:110px;
     margin-left: -70px;
+    box-shadow: inset;
 
 }
 
@@ -127,14 +113,19 @@ font-size: large;
     body{ 
         font-size: large;
     }
+
 #navbar{
-    display: block;
+    flex-direction: column;
+    gap: 5px;
+    
 }
 #nav{
-    display:block;
+    gap: 3px;
+    flex-direction: column;
 }
 #nav-details{
-    display:block;
+    gap: 3px;
+    flex-direction: column;
 }
 #skillheropage{
     gap:0;
@@ -143,18 +134,20 @@ font-size: large;
 #hero-image{
     flex-wrap: wrap;
     display: block;
-    margin-left: -280px;
+    margin-left: -350px;
     
 }
-#man{
-    height: 200px;
-    width: 200px;
+#hero-img{
+    padding-top: 40px;
+    height: 250px;
+    width: 250px;
 }
 .hero-button{
     margin-left: 0px;
 }
 #footer{
     display: block;
+    padding-top: 70px;
 }
 
 }
@@ -163,14 +156,18 @@ font-size: large;
     body{ 
         font-size: large;
     }
+
 #navbar{
-    display: block;
+    flex-direction: column;
+    gap: 5px;
 }
 #nav{
-    display:block;
+    gap: 3px;
+    flex-direction: column;
 }
 #nav-details{
-    display:block;
+    gap: 3px;
+   flex-direction: column;
 }
 #skillheropage{
     gap:0;
@@ -179,17 +176,19 @@ font-size: large;
 #hero-image{
     flex-wrap: wrap;
     display: block;
-    margin-left: -280px;
+    margin-left: -350px;
     
 }
-#man{
-    height: 200px;
-    width: 200px;
+#hero-img{
+    padding-top: 40px;
+    height: 250px;
+    width: 250px;
 }
 .hero-button{
     margin-left: 0px;
 }
 #footer{
+    padding-top: 70px;
     display: block;
 }
 
@@ -198,14 +197,19 @@ font-size: large;
     body{ 
         font-size: large;
     }
-#navbar{
-    display: block;
+
+
+#navbar {
+    flex-direction: column;
+    gap: 5px;
 }
 #nav{
-    display:block;
+    gap: 3px;
+    flex-direction: column;
 }
-#nav-details{
-    display:block;
+#nav-details {
+    gap: 3px;
+    flex-direction: column;
 }
 #skillheropage{
     gap:0;
@@ -214,17 +218,146 @@ font-size: large;
 #hero-image{
     flex-wrap: wrap;
     display: block;
-    margin-left: -280px;
+    margin-left: -350px;
     
 }
-#man{
-    height: 200px;
-    width: 200px;
+#hero-img{
+    padding-top: 40px;
+    height: 250px;
+    width: 250px;
 }
 .hero-button{
     margin-left: 0px;
 }
 #footer{
+    padding-top: 70px;
+    display: block;
+}
+
+
+}
+@media  (min-width: 375px) and (max-width: 435px){
+
+
+    body{ 
+        font-size: large;
+    }
+
+#navbar{
+    flex-direction: column;
+    gap: 5px;
+    
+}
+#nav{
+    gap: 3px;
+    flex-direction: column;
+}
+#nav-details{
+    gap: 3px;
+    flex-direction: column;
+}
+#skillheropage{
+    gap:0;
+    display: block;
+}
+#hero-image{
+    flex-wrap: wrap;
+    display: block;
+    margin-left: -350px;
+    
+}
+#hero-img{
+    padding-top: 40px;
+    height: 250px;
+    width: 250px;
+}
+.hero-button{
+    margin-left: 0px;
+}
+#footer{
+    display: block;
+    padding-top: 70px;
+}
+
+}
+
+@media  (min-width: 480px) and (max-width: 679px){
+    body{ 
+        font-size: large;
+    }
+
+#navbar{
+    flex-direction: column;
+    gap: 5px;
+}
+#nav{
+    gap: 3px;
+    flex-direction: column;
+}
+#nav-details{
+    gap: 3px;
+    flex-direction: column;
+}
+#skillheropage{
+    gap:0;
+    display: block;
+}
+#hero-image{
+    flex-wrap: wrap;
+    display: block;
+    margin-left: -350px;
+    
+}
+#hero-img{
+    padding-top: 40px;
+    height: 250px;
+    width: 250px;
+}
+.hero-button{
+    margin-left: 0px;
+}
+#footer{
+    padding-top: 70px;
+    display: block;
+}
+
+}
+@media  (min-width: 680px) and (max-width: 880px){
+    body{ 
+        font-size: large;
+    }
+
+
+#navbar {
+    flex-direction: column;
+    gap: 5px;
+}
+#nav{
+    flex-direction: column;
+}
+#nav-details {
+    flex-direction: column;
+}
+#skillheropage{
+    gap:0;
+    display: block;
+}
+#hero-image{
+    flex-wrap: wrap;
+    display: block;
+    margin-left: -350px;
+    
+}
+#hero-img{
+    padding-top: 40px;
+    height: 250px;
+    width: 250px;
+}
+.hero-button{
+    margin-left: 0px;
+}
+#footer{
+    padding-top: 70px;
     display: block;
 }
 
